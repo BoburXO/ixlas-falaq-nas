@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surah Al-Ikhlas</title>
+    <style>
+        button{
+            width: 200px;
+            height: 40px;
+            background: green;
+            color: #fff;
+        }
+        body{
+            text-align: center;
+            background-image: url(https://www.abwe.org/sites/default/files/posts/teasers/GettyImages-1147281423.jpg);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <audio id="ixlas">
+        <source src="112 Al-Ikhlas.ogg" type="audio/ogg">
+        <source src="112 Al-Ikhlas.mp3" type="audio/mpeg">
+    </audio>
+    
+    <h2>Click the buttons to play or pause the Surah Al-Ikhlas</h2>
+
+    <button onclick="playSurah()">Play</button>
+    <button onclick="pauseSurah()">Pause</button>
+
+
+
+    <audio id="falaq">
+        <source src="113 Al-Falaq.ogg" type="audio/ogg">
+        <source src="113 Al-Falaq.mp3" type="audio/mpeg">
+    </audio>
+
+    <h2>Click the buttons to play or pause the Surah Al-Falaq</h2>
+
+    <button onclick="playFalaq()">Play</button>
+    <button onclick="pauseFalaq()">Pause</button>
+
+    <audio id="an-nas">
+        <source src="114 An-Nas.ogg" type="audio/ogg">
+        <source src="114 An-Nas.mp3" type="audio/mpeg">
+    </audio>
+
+    <h2>Click the buttons to play or pause the Surah An-Nas</h2>
+    
+    <button onclick="playNas()">Play</button>
+    <button onclick="pauseNas()">Pause</button>
+
+
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
